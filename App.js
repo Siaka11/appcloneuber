@@ -27,9 +27,11 @@ const App = () => {
 
 
   return (
-    <SafeAreaView style={{alignContent: "center" }}>
-      <Home/>
-    </SafeAreaView>
+ 
+<Home/>
+  
+      
+ 
   );
 };
 
