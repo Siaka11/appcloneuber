@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete'
-import { Icon } from 'react-native-vector-icons/Icon'
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
 
 const SearchBar = () => {
@@ -29,12 +29,14 @@ const SearchBar = () => {
             }}
 
             renderLeftButton = {() => (
-                <View>
-                   <Icon name="facebook"/>
+                <View style={{
+                    marginLeft: 10
+                    }}>
+                    <Ionicons name="location-sharp" size={24}/>
                 </View>  
-            )
-            
-            }   
+            )}   
+
+            renderRightButton
             />
         </View>
     )
