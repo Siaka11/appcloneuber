@@ -14,6 +14,8 @@
 		6DCEDF0221075FD95B127BA5 /* libPods-appcloneuber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4307010F4F4EE28A1401BD2 /* libPods-appcloneuber.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		81E7A8BC766F9F3D830CDF36 /* libPods-appcloneuber-appcloneuberTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 424064D860BF0963A519E9B5 /* libPods-appcloneuber-appcloneuberTests.a */; };
+		CE3AE9BF2742E87000EEC759 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = CE3AE9BE2742E85C00EEC759 /* Fonts */; };
+		CE3AE9C02742E87000EEC759 /* react-native-vector-icons in Resources */ = {isa = PBXBuildFile; fileRef = CE3AE9BD2742E84800EEC759 /* react-native-vector-icons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = appcloneuber/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E812A604E2DD0AD307E9D63 /* Pods-appcloneuber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appcloneuber.debug.xcconfig"; path = "Target Support Files/Pods-appcloneuber/Pods-appcloneuber.debug.xcconfig"; sourceTree = "<group>"; };
 		A14065FAA6D7673B7A0BC16D /* Pods-appcloneuber-appcloneuberTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appcloneuber-appcloneuberTests.debug.xcconfig"; path = "Target Support Files/Pods-appcloneuber-appcloneuberTests/Pods-appcloneuber-appcloneuberTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE3AE9BD2742E84800EEC759 /* react-native-vector-icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "react-native-vector-icons"; path = "../../AwesomeProject/node_modules/react-native-vector-icons"; sourceTree = "<group>"; };
+		CE3AE9BE2742E85C00EEC759 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../../AwesomeProject/node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
 		EBDD469EB9A101B4BBE954F8 /* Pods-appcloneuber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appcloneuber.release.xcconfig"; path = "Target Support Files/Pods-appcloneuber/Pods-appcloneuber.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F4307010F4F4EE28A1401BD2 /* libPods-appcloneuber.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appcloneuber.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +120,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				CE3AE9BE2742E85C00EEC759 /* Fonts */,
+				CE3AE9BD2742E84800EEC759 /* react-native-vector-icons */,
 				13B07FAE1A68108700A75B9A /* appcloneuber */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* appcloneuberTests */,
@@ -145,7 +151,6 @@
 				A14065FAA6D7673B7A0BC16D /* Pods-appcloneuber-appcloneuberTests.debug.xcconfig */,
 				608ABD260A682B47BA50B160 /* Pods-appcloneuber-appcloneuberTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -243,6 +248,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3AE9BF2742E87000EEC759 /* Fonts in Resources */,
+				CE3AE9C02742E87000EEC759 /* react-native-vector-icons in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
